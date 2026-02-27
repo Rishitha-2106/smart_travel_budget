@@ -1,0 +1,396 @@
+[
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Rishikesh",
+      "state": "Uttarakhand",
+      "description": "Adventure capital of India with river rafting.",
+      "min_budget": 6000,
+      "max_budget": 25000,
+      "suitable_for": "friends",
+      "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2",
+      "latitude": 30.0869,
+      "longitude": 78.2676
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Ladakh",
+      "state": "Ladakh",
+      "description": "High-altitude desert with stunning landscapes.",
+      "min_budget": 15000,
+      "max_budget": 60000,
+      "suitable_for": "solo",
+      "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7",
+      "latitude": 34.1526,
+      "longitude": 77.5770
+    }
+  },
+    {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Darjeeling",
+      "state": "West Bengal",
+      "description": "Tea gardens and Himalayan views.",
+      "min_budget": 7000,
+      "max_budget": 28000,
+      "suitable_for": "couple",
+      "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3",
+      "latitude": 27.0360,
+      "longitude": 88.2627
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Hampi",
+      "state": "Karnataka",
+      "description": "Ancient ruins and UNESCO heritage site.",
+      "min_budget": 5000,
+      "max_budget": 20000,
+      "suitable_for": "solo",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+      "latitude": 15.3350,
+      "longitude": 76.4600
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Varanasi",
+      "state": "Uttar Pradesh",
+      "description": "Spiritual city on the banks of Ganga.",
+      "min_budget": 4000,
+      "max_budget": 18000,
+      "suitable_for": "family",
+      "image": "https://images.unsplash.com/photo-1589307004391-6a7b9e8efc1d",
+      "latitude": 25.3176,
+      "longitude": 82.9739
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Kodaikanal",
+      "state": "Tamil Nadu",
+      "description": "Serene hill station with lakes and forests.",
+      "min_budget": 7000,
+      "max_budget": 26000,
+      "suitable_for": "couple",
+      "image": "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3",
+      "latitude": 10.2381,
+      "longitude": 77.4892
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Mahabalipuram",
+      "state": "Tamil Nadu",
+      "description": "Ancient rock-cut temples and beach town.",
+      "min_budget": 6000,
+      "max_budget": 22000,
+      "suitable_for": "family",
+      "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2",
+      "latitude": 12.6208,
+      "longitude": 80.1930
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Amritsar",
+      "state": "Punjab",
+      "description": "Golden Temple and Wagah Border ceremony.",
+      "min_budget": 5000,
+      "max_budget": 20000,
+      "suitable_for": "family",
+      "image": "https://images.unsplash.com/photo-1587474260584-136574528ed5",
+      "latitude": 31.6340,
+      "longitude": 74.8723
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Gangtok",
+      "state": "Sikkim",
+      "description": "Beautiful Himalayan town with monasteries.",
+      "min_budget": 9000,
+      "max_budget": 35000,
+      "suitable_for": "couple",
+      "image": "https://images.unsplash.com/photo-1589308078059-be1415eab4c3",
+      "latitude": 27.3389,
+      "longitude": 88.6065
+    }
+  },
+  {
+    "model": "trips.destination",
+    "fields": {
+      "name": "Chikmagalur",
+      "state": "Karnataka",
+      "description": "Coffee estates and scenic mountain views.",
+      "min_budget": 7000,
+      "max_budget": 25000,
+      "suitable_for": "friends",
+      "image": "https://images.unsplash.com/photo-1627894483216-2138af692e32",
+      "latitude": 13.3153,
+      "longitude": 75.7754
+    }
+  }
+  ,
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Mount Abu",
+    "state": "Rajasthan",
+    "description": "Only hill station in Rajasthan with Nakki Lake.",
+    "min_budget": 6000,
+    "max_budget": 22000,
+    "suitable_for": "family",
+    "image": "https://images.unsplash.com/photo-1595815771614-ade5019f8f23",
+    "latitude": 24.5926,
+    "longitude": 72.7156
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Auli",
+    "state": "Uttarakhand",
+    "description": "Skiing destination with Himalayan views.",
+    "min_budget": 12000,
+    "max_budget": 45000,
+    "suitable_for": "friends",
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    "latitude": 30.5285,
+    "longitude": 79.5640
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Tawang",
+    "state": "Arunachal Pradesh",
+    "description": "Monasteries and breathtaking mountain views.",
+    "min_budget": 14000,
+    "max_budget": 50000,
+    "suitable_for": "solo",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    "latitude": 27.5866,
+    "longitude": 91.8696
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Khajuraho",
+    "state": "Madhya Pradesh",
+    "description": "Famous UNESCO temples with intricate carvings.",
+    "min_budget": 5000,
+    "max_budget": 20000,
+    "suitable_for": "family",
+    "image": "https://images.unsplash.com/photo-1589307004391-6a7b9e8efc1d",
+    "latitude": 24.8318,
+    "longitude": 79.9199
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Puri",
+    "state": "Odisha",
+    "description": "Jagannath Temple and beautiful beaches.",
+    "min_budget": 5000,
+    "max_budget": 18000,
+    "suitable_for": "family",
+    "image": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+    "latitude": 19.8135,
+    "longitude": 85.8312
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Shillong",
+    "state": "Meghalaya",
+    "description": "Scotland of the East with waterfalls and greenery.",
+    "min_budget": 8000,
+    "max_budget": 30000,
+    "suitable_for": "couple",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    "latitude": 25.5788,
+    "longitude": 91.8933
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Ziro Valley",
+    "state": "Arunachal Pradesh",
+    "description": "Peaceful valley with scenic landscapes.",
+    "min_budget": 10000,
+    "max_budget": 35000,
+    "suitable_for": "solo",
+    "image": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+    "latitude": 27.5880,
+    "longitude": 93.8287
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Dharamshala",
+    "state": "Himachal Pradesh",
+    "description": "Home of Dalai Lama and scenic mountain views.",
+    "min_budget": 8000,
+    "max_budget": 30000,
+    "suitable_for": "couple",
+    "image": "https://images.unsplash.com/photo-1605649487212-47bdab064df7",
+    "latitude": 32.2190,
+    "longitude": 76.3234
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Kaziranga",
+    "state": "Assam",
+    "description": "Famous for one-horned rhinoceros wildlife safari.",
+    "min_budget": 9000,
+    "max_budget": 35000,
+    "suitable_for": "family",
+    "image": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+    "latitude": 26.5775,
+    "longitude": 93.1711
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Badrinath",
+    "state": "Uttarakhand",
+    "description": "Sacred pilgrimage destination in Himalayas.",
+    "min_budget": 7000,
+    "max_budget": 25000,
+    "suitable_for": "family",
+    "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2",
+    "latitude": 30.7433,
+    "longitude": 79.4938
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Gokarna",
+    "state": "Karnataka",
+    "description": "Peaceful alternative to Goa beaches.",
+    "min_budget": 6000,
+    "max_budget": 20000,
+    "suitable_for": "friends",
+    "image": "https://images.unsplash.com/photo-1587922546307-776227941871",
+    "latitude": 14.5500,
+    "longitude": 74.3167
+  }
+},
+
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Auli",
+    "state": "Uttarakhand",
+    "description": "Popular skiing destination with Himalayan views.",
+    "min_budget": 12000,
+    "max_budget": 40000,
+    "suitable_for": "couple",
+    "image": "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16",
+    "latitude": 30.5285,
+    "longitude": 79.5646
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Spiti Valley",
+    "state": "Himachal Pradesh",
+    "description": "Cold desert mountain valley adventure destination.",
+    "min_budget": 15000,
+    "max_budget": 50000,
+    "suitable_for": "friends",
+    "image": "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16",
+    "latitude": 32.2466,
+    "longitude": 78.0346
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Nainital",
+    "state": "Uttarakhand",
+    "description": "Lake city surrounded by hills.",
+    "min_budget": 7000,
+    "max_budget": 25000,
+    "suitable_for": "family",
+    "image": "https://images.unsplash.com/photo-1593693411515-c20261bcad6e",
+    "latitude": 29.3803,
+    "longitude": 79.4636
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Jaisalmer",
+    "state": "Rajasthan",
+    "description": "Golden city and desert safari experience.",
+    "min_budget": 9000,
+    "max_budget": 35000,
+    "suitable_for": "friends",
+    "image": "https://images.unsplash.com/photo-1599661046289-e31897846e41",
+    "latitude": 26.9157,
+    "longitude": 70.9083
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Kutch",
+    "state": "Gujarat",
+    "description": "White desert and Rann Utsav festival.",
+    "min_budget": 10000,
+    "max_budget": 40000,
+    "suitable_for": "friends",
+    "image": "https://images.unsplash.com/photo-1609947017136-9daf32a5eb16",
+    "latitude": 23.7337,
+    "longitude": 69.8597
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Saputara",
+    "state": "Gujarat",
+    "description": "Hill station in Western Ghats.",
+    "min_budget": 6000,
+    "max_budget": 20000,
+    "suitable_for": "couple",
+    "image": "https://images.unsplash.com/photo-1608037521277-154cd1b89191",
+    "latitude": 20.5783,
+    "longitude": 73.7500
+  }
+},
+{
+  "model": "trips.destination",
+  "fields": {
+    "name": "Kohima",
+    "state": "Nagaland",
+    "description": "Hills, tribal culture and scenic views.",
+    "min_budget": 10000,
+    "max_budget": 35000,
+    "suitable_for": "friends",
+    "image": "https://images.unsplash.com/photo-1593693397690-362cb9666fc2",
+    "latitude": 25.6747,
+    "longitude": 94.1100
+  }
+}
+]

@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #F8FAFC;
+  color: #1E293B;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 40px;
+  background-color: #0F172A;
+  color: white;
+}
+
+.brand {
+  font-size: 22px;
+  font-weight: 600;
+  color: #06B6D4;
+}
+
+.profile-section {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.nav-btn {
+  padding: 8px 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+}
+
+.login-btn {
+  background-color: #06B6D4;
+  color: white;
+}
+
+.logout-btn {
+  background-color: #EF4444;
+  color: white;
+}
+
+/* Card Design */
+.card {
+  background: white;
+  padding: 25px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+  margin-bottom: 20px;
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}

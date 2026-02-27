@@ -1,0 +1,74 @@
+/* Full screen gradient background */
+.login-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0F172A, #06B6D4);
+  font-family: 'Poppins', sans-serif;
+}
+
+/* Glass Card */
+.login-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 50px 40px;
+  border-radius: 20px;
+  width: 400px;
+  text-align: center;
+  color: white;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.brand-title {
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  color: #ffffff;
+}
+
+.login-card h2 {
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
+/* Inputs */
+.login-card input {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  font-size: 16px;
+}
+
+/* Button */
+.login-card button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #06B6D4;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.login-card button:hover {
+  background-color: #0891B2;
+  transform: scale(1.03);
+}
+
+.login-card p {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.login-card a {
+  color: #ffffff;
+  font-weight: 600;
+  text-decoration: underline;
+}

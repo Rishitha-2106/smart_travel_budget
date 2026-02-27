@@ -1,0 +1,197 @@
+/* Full screen gradient background */
+.home-container {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0F172A, #06B6D4);
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  background: rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px);
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.profile-section button {
+  padding: 10px 20px;
+  border-radius: 10px;
+  border: none;
+  font-weight: 600;
+  background-color: #06B6D4;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.profile-section button:hover {
+  background-color: #0891B2;
+  transform: scale(1.05);
+}
+
+/* Main Content */
+.content {
+  padding: 50px;
+  text-align: center;
+}
+
+.content h2 {
+  font-size: 32px;
+  margin-bottom: 40px;
+}
+
+/* Suggestions Grid */
+.suggestions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+/* Trip Card (Glass Effect Same as Login Card) */
+.trip-card {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  width: 300px;
+  padding: 25px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+  transition: 0.3s ease;
+}
+
+.trip-card:hover {
+  transform: translateY(-8px);
+}
+
+.trip-card h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+.trip-card p {
+  font-size: 15px;
+  margin: 6px 0;
+}
+
+.budget {
+  font-size: 18px;
+  font-weight: 600;
+  color: #06B6D4;
+  margin-top: 10px;
+}
+/* Input Section */
+.input-section {
+  margin: 40px auto;
+  width: 400px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(20px);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+
+.input-section h2 {
+  margin-bottom: 25px;
+}
+
+.input-section input,
+.input-section select {
+  width: 100%;
+  padding: 14px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: none;
+  font-size: 16px;
+}
+
+.input-section button {
+  width: 100%;
+  padding: 14px;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: #06B6D4;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.input-section button:hover {
+  background-color: #0891B2;
+  transform: scale(1.03);
+}
+
+/* Suggestions Grid */
+.suggestions-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+}
+
+.trip-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+/* Dropdown Profile */
+.welcome {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.dropdown {
+  position: absolute;
+  right: 50px;
+  top: 80px;
+  background: rgba(255,255,255,0.15);
+  backdrop-filter: blur(20px);
+  padding: 20px;
+  border-radius: 15px;
+  width: 220px;
+  box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+}
+.clear-btn {
+  background-color: #ffffff;     /* pure white */
+  color: #625555;                /* black text */
+  border: 1px solid #251919;
+  padding: 2px 6px;             /* small size */
+  font-size: 13px;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+
+
+.clear-btn:hover {
+  background-color: #f2f2f2;
+}
+
+.no-suggestions {
+  text-align: left;
+  margin-top: 2px;
+  color: #25dc3d;
+  font-size: 14px;
+}

@@ -1,0 +1,38 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #1e293b;
+  color: white;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.profile-section {
+  position: relative;
+}
+
+.welcome {
+  cursor: pointer;
+}
+
+.dropdown {
+  position: absolute;
+  right: 0;
+  top: 35px;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 6px;
+  width: 160px;
+}
+
+.dropdown button {
+  margin-top: 8px;
+  width: 100%;
+}
