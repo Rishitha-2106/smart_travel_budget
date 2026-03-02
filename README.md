@@ -106,7 +106,7 @@ User books hotel.
 ![Home Page](screenshots/home.png)
 ![Destination Page](screenshots/destination.png)
 ![Hotel Page](screenshots/hotel.png)
-![Hotel booking Page](screenshots/hotelbooking.png).
+![Hotel booking Page](screenshots/hotel booking.png).
 
 
 🔧 Setup Instructions
