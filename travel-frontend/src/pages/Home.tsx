@@ -29,7 +29,7 @@ function Home() {
   const username = localStorage.getItem("username");
 
   const handleLogout = () => {
-    localStorage.removeItem("token");
+    localStorage.clear();
     navigate("/login");
   };
 const fetchSuggestions = async () => {

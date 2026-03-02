@@ -1,4 +1,5 @@
 import { Routes, Route, Navigate } from "react-router-dom";
+import { useState, useEffect } from "react";
 
 import Login from "./pages/Login";
 import Register from "./pages/Register";
@@ -7,12 +8,21 @@ import DestinationDetails from "./pages/DestinationDetails";
 import BookHotel from "./pages/BookHotel";
 
 function App() {
-  const token = localStorage.getItem("token");
+  const [token, setToken] = useState(localStorage.getItem("token"));
+
+  useEffect(() => {
+    const handleStorage = () => {
+      setToken(localStorage.getItem("token"));
+    };
+
+    window.addEventListener("storage", handleStorage);
+    return () => window.removeEventListener("storage", handleStorage);
+  }, []);
 
   return (
     <Routes>
       <Route path="/" element={<Navigate to="/login" />} />
-      <Route path="/login" element={<Login />} />
+      <Route path="/login" element={<Login setToken={setToken} />} />
       <Route path="/register" element={<Register />} />
 
       <Route
