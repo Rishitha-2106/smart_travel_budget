@@ -23,6 +23,7 @@ function Login({ setToken }: any) {
     if (data.access) {
       localStorage.setItem("token", data.access);
         localStorage.setItem("username", username);  // ADD THIS
+  setToken(data.access);   // ⭐ ADD THIS LINE
 
       navigate("/home");
     } else {
